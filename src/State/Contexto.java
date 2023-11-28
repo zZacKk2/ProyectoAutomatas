@@ -42,8 +42,4 @@ public class Contexto {
 		
 	}
 	
-	public State getState() {
-		return this.estado;
-	}
-	
 }

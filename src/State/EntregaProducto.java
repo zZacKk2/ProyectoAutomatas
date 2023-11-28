@@ -25,7 +25,7 @@ public class EntregaProducto implements State{
 
 	@Override
 	public void Entregar() {
-		System.out.println("Producto " + this.producto + "entregado!");
+		System.out.println("Producto " + this.producto + " entregado!");
 		maquina.setEstado(new Encendida());
 		
 	}

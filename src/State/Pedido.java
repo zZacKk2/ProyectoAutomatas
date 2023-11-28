@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Pedido implements State{
 	Contexto maquina;
 	private Scanner sc = new Scanner(System.in);
-
+	Pedido(){
+		System.out.println("Maquina lista para recibir su pedido");
+	}
 	
 	@Override
 	public void Encendido() {
